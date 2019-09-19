@@ -8,13 +8,25 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+// MARK: - ViewController
 
+class ViewController: UIViewController {
+    
+    @IBOutlet weak var polygonView: PolygonView?
+
+    // MARK: - ViewController LifeCycle
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        
+        polygonView?.vertices = [
+            CGPoint(x: 0.0, y: 0.0),
+            CGPoint(x: 1.0, y: 0.0),
+            CGPoint(x: 1.0, y: 1.0),
+            CGPoint(x: 0.2, y: 0.8)
+        ]
+        
+        polygonView?.color = UIColor.red
     }
-
-
 }
 
