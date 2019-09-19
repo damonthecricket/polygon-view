@@ -14,6 +14,7 @@
 		4EEEE89A2333739D00B8A91B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4EEEE8982333739D00B8A91B /* LaunchScreen.storyboard */; };
 		4EEEE8A22333743A00B8A91B /* PolygonLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EEEE8A12333743A00B8A91B /* PolygonLayer.swift */; };
 		4EEEE8A42333789800B8A91B /* PolygonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EEEE8A32333789800B8A91B /* PolygonView.swift */; };
+		4EEEE8A6233385E300B8A91B /* PolygonVertexTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EEEE8A5233385E300B8A91B /* PolygonVertexTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		4EEEE89B2333739D00B8A91B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4EEEE8A12333743A00B8A91B /* PolygonLayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PolygonLayer.swift; sourceTree = "<group>"; };
 		4EEEE8A32333789800B8A91B /* PolygonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PolygonView.swift; sourceTree = "<group>"; };
+		4EEEE8A5233385E300B8A91B /* PolygonVertexTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PolygonVertexTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +64,7 @@
 				4EEEE8912333739B00B8A91B /* ViewController.swift */,
 				4EEEE8A32333789800B8A91B /* PolygonView.swift */,
 				4EEEE8A12333743A00B8A91B /* PolygonLayer.swift */,
+				4EEEE8A5233385E300B8A91B /* PolygonVertexTableViewCell.swift */,
 				4EEEE8982333739D00B8A91B /* LaunchScreen.storyboard */,
 				4EEEE8932333739B00B8A91B /* Main.storyboard */,
 				4EEEE8962333739D00B8A91B /* Assets.xcassets */,
@@ -144,6 +147,7 @@
 				4EEEE8A22333743A00B8A91B /* PolygonLayer.swift in Sources */,
 				4EEEE8922333739B00B8A91B /* ViewController.swift in Sources */,
 				4EEEE8902333739B00B8A91B /* AppDelegate.swift in Sources */,
+				4EEEE8A6233385E300B8A91B /* PolygonVertexTableViewCell.swift in Sources */,
 				4EEEE8A42333789800B8A91B /* PolygonView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
